@@ -1,0 +1,34 @@
+# Build artifacts
+build/
+bin/
+out/
+*.exe
+*.obj
+*.o
+*.pyd
+*.pyc
+
+# IDEs
+.vs/
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.user
+*.suo
+
+# System/Misc
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# ADB / Android
+onyx_external
+onyx_external_esp
+
+# Dependency Libraries
+# We keep these specifically because they are required vendored deps
+!deps/KittyMemoryEx/Deps/Keystone/libs-android/**/*.a
+!deps/KittyMemoryEx/Deps/Keystone/includes/**/*.h
