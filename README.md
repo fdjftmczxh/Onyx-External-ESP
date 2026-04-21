@@ -80,5 +80,4 @@ This project uses several community tools:
 
 ## Socials
 
-- Signal: `feng_xingzhe_cn_.86`
-- Discord: `feng_xingzhe`
+- Discord: `https://discord.gg/q6cra6wUQA`
