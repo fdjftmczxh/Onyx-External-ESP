@@ -375,7 +375,7 @@ void Renderer::draw_launcher_bar() noexcept {
 
     time_ss << std::put_time(&tm, "%H:%M:%S");
 
-    std::string text = "Onyx 1.60.0.f3153 | " + time_ss.str() + " | " + std::to_string(static_cast<int>(io.Framerate)) + " FPS";
+    std::string text = "Onyx 1.60.0.f3167 | " + time_ss.str() + " | " + std::to_string(static_cast<int>(io.Framerate)) + " FPS";
 
     if (m_font_roboto) ImGui::PushFont(m_font_roboto);
     
