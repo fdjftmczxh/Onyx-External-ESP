@@ -8,16 +8,30 @@
 
 ## Target Specification
 
-This project was tested on MuMu Player and is specifically configured for:
-* **Architecture:** android x86_64
+This project has been built and tested for a specific emulation environment:
+* **Architecture:** Android x86_64
+* **Emulator:** MuMu Player (global)
 
-**Note:** Using this on different versions or ARM-based architectures (armeabi-v7a/arm64-v8a) will result in crashes for now.
+**Note:** Support for physical Android devices (ARM architectures) is currently lacking. However, bringing compatibility to real, rooted physical devices is on the roadmap and will be worked on in future updates.
 
 ---
 
 ## Project Status
 
-This is a learning base, not a finished product. It is currently missing many features (such as player names, team identification, etc) because of the game's obfuscation. The goal is to provide a clean starting point that is easy to understand and modify.
+This project serves as an educational foundation rather than a finished product. Due to the game's obfuscation, several features, such as player names and team identification, are currently missing. The primary goal is to provide a clean, accessible starting point that is easy to understand, study, and modify.
+
+At present, the project includes a core set of ESP features:
+
+* Skeleton
+* Snaplines
+* Bounding Boxes (2D & 3D)
+* Health
+* Distance
+* Off-screen Indicators
+
+[Preview of ESP (streamable)](https://streamable.com/lkwjmm)
+
+For any questions, joing my Discord server: https://discord.gg/q6cra6wUQA
 
 ---
 
@@ -69,15 +83,11 @@ This script will automatically:
 
 ---
 
-## Tools Used
+## Credits
 
-This project uses several community tools:
+This project uses several community projects:
 
-- **[KittyMemoryEx](https://github.com/MJx0/KittyMemoryEx)** by [MJx0](https://github.com/MJx0) — memory scanning and pattern finding for Android.
-- **[AImGUI](https://github.com/Bzi-Han/AndroidSurfaceImgui)** by [Bzi-Han](https://github.com/Bzi-Han) — external android rendering framework.
+- **[KittyMemoryEx](https://github.com/MJx0/KittyMemoryEx)** by [MJx0](https://github.com/MJx0) — Memory scanning and pattern finding for Android.
+- **[AImGUI](https://github.com/Bzi-Han/AndroidSurfaceImgui)** by [Bzi-Han](https://github.com/Bzi-Han) — External Android rendering framework.
 
 ---
-
-## Socials
-
-- Discord: `https://discord.gg/q6cra6wUQA`
