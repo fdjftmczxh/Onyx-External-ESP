@@ -2,7 +2,7 @@
 
 [![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com/)
 [![Arch](https://img.shields.io/badge/Arch-x86__64-orange.svg)](#)
-[![Target](https://img.shields.io/badge/Version-1.60.0.f3172-red.svg)](#)
+[![Target](https://img.shields.io/badge/Version-1.60.0.f3191-red.svg)](#)
 
 ---
 
