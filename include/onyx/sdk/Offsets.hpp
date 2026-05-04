@@ -8,7 +8,7 @@
 
 namespace onyx::sdk::offsets {
 
-constexpr uintptr_t k_type_info_gameplay_module = 0x2f7b680; // update for version 1.60.0.f3172
+constexpr uintptr_t k_type_info_gameplay_module = 0x2f77e28; // update for version 1.60.0.f3191
 
 namespace gameplay_module {
 
