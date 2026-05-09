@@ -42,8 +42,9 @@ This project includes automated batch scripts (`build.bat` and `push.bat`) to ha
 ### Prerequisites
 Before building, make sure you have the following ready on your Windows machine:
 1. **[Android NDK](https://developer.android.com/ndk/downloads)** - Required for cross-compiling C++ for Android.
-2. **ADB (Android Debug Bridge)** - Required to push the compiled binary to your device.
-3. **Emulator Configuration** - Ensure your MuMu Player (or equivalent emulator) is running, rooted, and connected to ADB.
+2. **[CMake](https://cmake.org/download/)** - Required to configure and generate the build system. During installation, select **"Add CMake to the system PATH for all users"**.
+3. **ADB (Android Debug Bridge)** - Required to push the compiled binary to your device.
+4. **Emulator Configuration** - Ensure your MuMu Player (or equivalent emulator) is running, rooted, and connected to ADB.
 
 ### 1. Initial Setup & Cloning
 First, clone the repository:
